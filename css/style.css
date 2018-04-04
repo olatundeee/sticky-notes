@@ -1,0 +1,132 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Handwriting', serif;
+    font-size: 100%;
+    margin: 3em;
+    background: #004d40;
+    color: #fff;
+}
+
+nav {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.note-header, .note-content {
+    font-size: 100%;
+    font-weight: normal;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.row {
+    padding: 3em;
+    margin-left: 3%;
+}
+
+.row .col.l4.m6.s12 a {
+    text-decoration: none;
+    color: #000;
+    background: #a7ffeb;
+    display: block;
+    height: 20em;
+    width: 20em;
+    padding: 1em;
+    overflow: hidden;
+    -moz-box-shadow: 5px 5px 7px rgb(255, 255, 255);
+    -webkit-box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.7);
+    box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.7);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+}
+
+.note-header {
+    font-size: 140%;
+    font-weight: bold;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.note-content {
+    font-family: 'Lucida Handwriting', sans-serif;
+    font-size: 180%;
+    overflow: hidden;
+}
+
+.row .col.l4.m6.s12 {
+    margin: 2em;
+    float: left;
+}
+
+.col.l4.m6.s12 {
+    width: 20em;
+    height: 20em;
+}
+
+.row .col.l4.m6.s12:nth-child(even) a {
+    -o-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    position: relative;
+    top: 5px;
+    background: #40c4ff;
+}
+
+.row .col.l4.m6.s12:nth-child(3n) a {
+    -o-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    position: relative;
+    top: -5px;
+    background: #dce775;
+}
+
+.row .col.l4.m6.s12:nth-child(5n) a {
+    -o-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    position: relative;
+    top: -10px;
+}
+
+.row .col.l4.m6.s12 a:hover,.row .col.l4.m6.s12 a:focus {
+    -moz-box-shadow: 10px 10px 7px rgba(255, 255, 255, 0.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(255, 255, 255, 0.7);
+    box-shadow: 10px 10px 7px rgba(255, 255, 255, 0.7);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+}
+
+.row .col.l4.m6.s12 a.new-note-1 {
+    background: #dce775;
+}
+
+.row .col.l4.m6.s12 a.new-note-2 {
+    background: #40c4ff;
+}
+
+.row .col.l4.m6.s12 a.new-note-3 {
+    background: #a7ffeb;
+}
+
+.ion-android-add {
+    height: 30px !important;
+    line-height: 30px !important;
+    margin-left: 15px;
+}
+
+.brand-logo.center {
+    height: 30px;
+    border: 2px solid #a7ffeb;
+    width: 50px;
+    height: 30px !important;
+    margin-top: 20px;
+}
